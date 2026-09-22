@@ -1,0 +1,216 @@
+{
+  "course_id": "gzu-python",
+  "title": "GZU: Practical Python for Self-Sufficiency (NOVA metal)",
+  "audience": "adult",
+  "goal": "Write clear Python that automates homestead/NOVA chores \u2014 files, data, schedules \u2014 with fundamentals solid enough to extend fieldkit tools without cargo-culting.",
+  "duration_hint": "10 weeks self-paced",
+  "tags": [
+    "built",
+    "gzu",
+    "python",
+    "automation",
+    "nova"
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Automate the Boring Stuff with Python (2015)",
+      "locator": "D:\\pg\\documents\\Ebooks\\Automate the Boring Stuff with Python (2015).pdf",
+      "authority": "primary",
+      "note": "Al Sweigart \u2014 practical automation; TOC used for week mapping",
+      "sha256": "257974a626c2e31c02a0334b370b0cc4b8e1474d1a6939ff2f28df1b9535c314"
+    },
+    {
+      "id": "S2",
+      "title": "Practical Programming, 3rd Edition",
+      "locator": "D:\\pg\\documents\\Ebooks\\practical-programming-third-edition_p1_0.pdf",
+      "authority": "primary",
+      "note": "Gries/Campbell/Montojo \u2014 CS fundamentals to pair with ATBS",
+      "sha256": "b0b2166d541bf4ccea7da66fa35520f9bb0cb721585e3319cdece993b3b333e9"
+    }
+  ],
+  "weeks": [
+    {
+      "week": "1",
+      "title": "Python basics + why automate",
+      "objective": "Run Python on local metal; expressions, types, and a first useful script.",
+      "topics": [
+        "install/run",
+        "expressions",
+        "variables",
+        "NOVA chore mindset"
+      ],
+      "activity": "From S1 Ch.1 + S2 early chapters: print a host report (OS, cwd, python version) to a text file.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ],
+      "assessment": "Script runs twice; output file exists; cites chapters used."
+    },
+    {
+      "week": "2",
+      "title": "Flow control",
+      "objective": "Branch and loop confidently (S1 Ch.2 / S2 control flow).",
+      "topics": [
+        "if/else",
+        "while/for",
+        "truthiness"
+      ],
+      "activity": "Write a small CLI that validates a STEP filename pattern (STEP_*.md) and reports pass/fail.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ],
+      "assessment": "Handles good and bad names without crashing."
+    },
+    {
+      "week": "3",
+      "title": "Functions",
+      "objective": "Factor code into functions with clear inputs/outputs (S1 Ch.3).",
+      "topics": [
+        "def",
+        "return",
+        "scope",
+        "docstrings"
+      ],
+      "activity": "Refactor week-2 script into functions; add a tiny unit-style self-check main.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ],
+      "assessment": "Functions reusable; no copy-paste blocks left."
+    },
+    {
+      "week": "4",
+      "title": "Lists and dictionaries",
+      "objective": "Structure data with lists/dicts (S1 Ch.4\u20135).",
+      "topics": [
+        "lists",
+        "dicts",
+        "nesting"
+      ],
+      "activity": "Build an inventory dict for 5 AiTutor/NOVA paths (exists?, size) and pretty-print JSON.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ],
+      "assessment": "JSON valid; missing paths marked honestly."
+    },
+    {
+      "week": "5",
+      "title": "Strings and files",
+      "objective": "Read/write text safely; organize files (S1 Ch.6, 8\u20139).",
+      "topics": [
+        "paths",
+        "read/write",
+        "organize/move with care"
+      ],
+      "activity": "Script that copies *.json course files to a backup folder with timestamps (no deletes).",
+      "source_ids": [
+        "S1"
+      ],
+      "assessment": "Backup folder correct; original untouched."
+    },
+    {
+      "week": "6",
+      "title": "Debugging and regex",
+      "objective": "Debug calmly; extract patterns with regex (S1 Ch.7, 10).",
+      "topics": [
+        "logging",
+        "exceptions",
+        "re"
+      ],
+      "activity": "Parse PROOF: bytes=N lines from sample logs; unit-test edge cases.",
+      "source_ids": [
+        "S1"
+      ],
+      "assessment": "Regex matches real PROOF lines; fails loudly on junk."
+    },
+    {
+      "week": "7",
+      "title": "CSV, JSON, and documents",
+      "objective": "Move tabular/structured data without Excel dependency (S1 Ch.12\u201314).",
+      "topics": [
+        "csv",
+        "json",
+        "PDF/Word overview"
+      ],
+      "activity": "Convert a small CSV of course weeks into course-json-shaped dicts; write pretty JSON.",
+      "source_ids": [
+        "S1"
+      ],
+      "assessment": "Round-trip CSV\u2192JSON preserves week ids."
+    },
+    {
+      "week": "8",
+      "title": "Web data carefully",
+      "objective": "Fetch public pages/APIs ethically (S1 Ch.11); prefer offline when possible.",
+      "topics": [
+        "requests/urllib",
+        "parsing basics",
+        "rate limits",
+        "HIL"
+      ],
+      "activity": "Fetch one allowlisted public page or local file URL; save text excerpt + timestamp (no scraping behind logins).",
+      "source_ids": [
+        "S1"
+      ],
+      "assessment": "Citation of URL; no credentials; polite single request."
+    },
+    {
+      "week": "9",
+      "title": "Scheduling and lightweight automation",
+      "objective": "Time, schedule, launch programs (S1 Ch.15); know email/GUI chapters exist but keep HIL.",
+      "topics": [
+        "datetime",
+        "scheduling",
+        "subprocess"
+      ],
+      "activity": "Write a dry-run \"node ping\" script that timestamps and appends to a log (no SSH secrets).",
+      "source_ids": [
+        "S1"
+      ],
+      "assessment": "Log lines append; dry-run never sends mail or moves mouse."
+    },
+    {
+      "week": "10",
+      "title": "Capstone \u2014 NOVA chore bot",
+      "objective": "Ship a small multi-file tool that helps AiTutor or fieldkit housekeeping.",
+      "topics": [
+        "synthesis",
+        "README",
+        "cites"
+      ],
+      "activity": "Capstone choices: (A) course JSON linter for built/*.json, (B) STAGING file inventory report, (C) PROOF line extractor. README cites S1/S2 chapters.",
+      "source_ids": [
+        "S1",
+        "S2"
+      ],
+      "assessment": "Runs on TUF; README with cites; no secrets in repo."
+    }
+  ],
+  "gaps": [
+    "Practical Programming TOC only partially extracted \u2014 deepen week mapping from S2 when tutoring",
+    "ATBS 2015 edition \u2014 APIs (email/GUI) may be dated; prefer modern stdlib equivalents and flag gaps"
+  ],
+  "tutor_notes": "Adult GZU tone aimed at NOVA builders. Prefer local metal + HIL for mail/GUI automation. Pair with gzu-dscl for pipes. Cite S1/S2; never invent library APIs. Practice host: TUF or LinuxBox1 CPU Ollama for explaining code, not for secret handling.",
+  "nova_relevance": "Directly supports fieldkit scripts, STEP/PROOF parsing, course JSON tooling, homestead inventories, and safe automation next to leash/HIL norms.",
+  "provenance": {
+    "schema": "aitutor.course.v1",
+    "content_sha256": "b14b5eb81128d47ed51af14fd61036123dcafdd1b21ea57288906949ca6ddb00",
+    "cite_count": 2,
+    "hashed_zulu": "2026-09-21T10:29:33Z"
+  },
+  "WHI": {
+    "kind": "0x-DOC",
+    "code_hint": "0x-DOC",
+    "course_id": "gzu-python",
+    "title": "GZU: Practical Python for Self-Sufficiency (NOVA metal)",
+    "cites": [
+      "S1",
+      "S2"
+    ],
+    "stamped_zulu": "2026-09-21T10:29:33Z",
+    "note": "Optional WHI header for NOVA ingest; AiTutor stays standalone."
+  }
+}

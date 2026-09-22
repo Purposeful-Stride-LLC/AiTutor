@@ -1,0 +1,99 @@
+{
+  "description": "Local corpora AiTutor may ingest. Paths stay on the machine; we do not vendor them.",
+  "roots": [
+    {
+      "id": "ad-astra",
+      "path": "D:\\\\pg\\\\documents\\\\AD_ASTRA",
+      "domains": [
+        "syllabi",
+        "gzu",
+        "k12"
+      ],
+      "authority": "primary"
+    },
+    {
+      "id": "documents-grok-courses",
+      "path": "D:\\\\pg\\\\documents",
+      "glob_hint": "*Course*Grok.html",
+      "domains": [
+        "stem",
+        "trades",
+        "soft-skills"
+      ],
+      "authority": "secondary",
+      "note": "Conversation-built courses; distill before baking"
+    },
+    {
+      "id": "military-working-dog-fm",
+      "path": "D:\\\\pg\\\\documents\\\\fm3_19_17MWDog",
+      "domains": [
+        "military",
+        "k9",
+        "manual"
+      ],
+      "authority": "primary",
+      "note": "FM 3-19.17 text + chapter audio"
+    },
+    {
+      "id": "grinder-fabrication",
+      "path": "D:\\\\pg\\\\documents\\\\BEST GRINDER FILE - 7286457",
+      "domains": [
+        "fabrication",
+        "homestead",
+        "cad"
+      ],
+      "authority": "secondary"
+    },
+    {
+      "id": "data-science-cli",
+      "path": "D:\\\\pg\\\\documents\\\\DataScienceCommandLine",
+      "domains": [
+        "data",
+        "cli"
+      ],
+      "authority": "primary"
+    },
+    {
+      "id": "invent-with-python",
+      "path": "D:\\\\pg\\\\documents\\\\InventWithPython_resources",
+      "domains": [
+        "python",
+        "games",
+        "k12-adult"
+      ],
+      "authority": "primary"
+    },
+    {
+      "id": "dscl-ebook",
+      "path": "D:\\\\pg\\\\documents\\\\Ebooks\\\\data_science_at_the_command_line.pdf",
+      "domains": [
+        "data-science",
+        "cli",
+        "gzu"
+      ],
+      "authority": "primary",
+      "note": "Janssens \u2014 Data Science at the Command Line"
+    },
+    {
+      "id": "ebooks-shelf",
+      "path": "D:\\\\pg\\\\documents\\\\Ebooks",
+      "domains": [
+        "textbooks",
+        "stem",
+        "homestead",
+        "geology",
+        "maker",
+        "field"
+      ],
+      "authority": "primary",
+      "note": "Full digital textbook shelf \u2014 see TEXTBOOK_CATALOG.json",
+      "catalog": "content/source_roots/TEXTBOOK_CATALOG.json"
+    }
+  ],
+  "parent_k12": {
+    "how": "Paste district syllabus via `aitutor build --paste` or ingest_text()",
+    "optional_online": "State DOE standards URL when network allowed"
+  },
+  "textbook_catalog": "TEXTBOOK_CATALOG.json",
+  "planning_doc": "TEXTBOOKS.md"
+}

@@ -1,0 +1,17 @@
+[project]
+name = "aitutor"
+version = "0.1.0"
+description = "Ad Astra / GZU education module — AI tutor with human lesson sessions"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+aitutor = "aitutor.__main__:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["aitutor*"]

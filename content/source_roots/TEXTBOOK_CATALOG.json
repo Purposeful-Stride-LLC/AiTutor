@@ -1,0 +1,537 @@
+{
+  "schema": "aitutor.textbook_catalog.v1",
+  "root": "D:\\pg\\documents\\Ebooks",
+  "scanned_zulu": "2026-09-21T10:23:46Z",
+  "purpose": "Digital textbooks on thumb for AiTutor build methodology (cite \u2192 course \u2192 tutor).",
+  "already_coursed": [
+    {
+      "course_id": "gzu-dscl",
+      "file": "data_science_at_the_command_line.pdf"
+    }
+  ],
+  "books": [
+    {
+      "id": "TB-23363560",
+      "title": "Arduino Projects for Amateur Radio  2015",
+      "file": "Arduino Projects for Amateur Radio  2015.pdf",
+      "locator": "D:\\pg\\documents\\Ebooks\\Arduino Projects for Amateur Radio  2015.pdf",
+      "bytes": 12640070,
+      "sha256": "028fba873d286bbf46377a9c551d470da4e110fb1059c48d8c087063745f1f23",
+      "authority": "primary",
+      "domains": [
+        "maker",
+        "stem-cs"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "TB-0db780d4",
+      "title": "Arduino Robotics",
+      "file": "Arduino Robotics.pdf",
+      "locator": "D:\\pg\\documents\\Ebooks\\Arduino Robotics.pdf",
+      "bytes": 21976038,
+      "sha256": "3b609e7227db3af7ebdcf5f4ccf5f4120fbe9f845d5490d973a33f9aef9dd0c0",
+      "authority": "primary",
+      "domains": [
+        "maker",
+        "stem-cs"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "TB-d5d9dd31",
+      "title": "Automate the Boring Stuff with Python (2015)",
+      "file": "Automate the Boring Stuff with Python (2015).pdf",
+      "locator": "D:\\pg\\documents\\Ebooks\\Automate the Boring Stuff with Python (2015).pdf",
+      "bytes": 17449893,
+      "sha256": "257974a626c2e31c02a0334b370b0cc4b8e1474d1a6939ff2f28df1b9535c314",
+      "authority": "primary",
+      "domains": [
+        "stem-cs"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "TB-3fee7bfc",
+      "title": "Black Hat Python",
+      "file": "Black Hat Python.pdf",
+      "locator": "D:\\pg\\documents\\Ebooks\\Black Hat Python.pdf",
+      "bytes": 7226003,
+      "sha256": "2d6b44fb8009b3130452c6596fe3f7671c04cc14e4d47dc2bc7e0777eabeda08",
+      "authority": "primary",
+      "domains": [
+        "stem-cs"
+      ],
+      "notes": "Dual-use security text \u2014 teach defense/ethics; no offensive exploit labs in AiTutor defaults."
+    },
+    {
+      "id": "TB-c19a3806",
+      "title": "Butchering",
+      "file": "Butchering.pdf",
+      "locator": "D:\\pg\\documents\\Ebooks\\Butchering.pdf",
+      "bytes": 3579498,
+      "sha256": "c0753ef0ab0b5206cb378b1e47dbc06ef2a8d310ab600d29b71aadad75f31731",
+      "authority": "primary",
+      "domains": [
+        "homestead"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "TB-adde1e48",
+      "title": "Cheese Making",
+      "file": "Cheese Making.pdf",
+      "locator": "D:\\pg\\documents\\Ebooks\\Cheese Making.pdf",
+      "bytes": 3129290,
+      "sha256": "41a6ba0426d98c10b4cca9b04f18f46c36a76574b82d6ef21c271ef1e0a2b4ba",
+      "authority": "primary",
+      "domains": [
+        "homestead"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "TB-6829e318",
+      "title": "Complete Book of Home Preserving",
+      "file": "Complete Book of Home Preserving.pdf",
+      "locator": "D:\\pg\\documents\\Ebooks\\Complete Book of Home Preserving.pdf",
+      "bytes": 73626692,
+      "sha256": "6584aa6f896c251fbf8f528e42d9f1bb3f49265c5d237b72829ade2c5b554191",
+      "authority": "primary",
+      "domains": [
+        "homestead"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "TB-f81c7546",
+      "title": "data_science_at_the_command_line",
+      "file": "data_science_at_the_command_line.pdf",
+      "locator": "D:\\pg\\documents\\Ebooks\\data_science_at_the_command_line.pdf",
+      "bytes": 7973093,
+      "sha256": "fd9a3b02e6ea5189824e1acf779247c515b328c39168791d75e132106bcb7c1e",
+      "authority": "primary",
+      "domains": [
+        "stem-cs"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "TB-7c4aec4f",
+      "title": "Essentials Of Geology - 4th Edition",
+      "file": "Essentials Of Geology - 4th Edition.pdf",
+      "locator": "D:\\pg\\documents\\Ebooks\\Essentials Of Geology - 4th Edition.pdf",
+      "bytes": 109696519,
+      "sha256": "8bc4d5e782f4d5c45243a10122cbd26fcc65820218acde825d95c10f130adcff",
+      "authority": "primary",
+      "domains": [
+        "earth-space"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "TB-e8c2ed45",
+      "title": "Farm_Buildings1905",
+      "file": "Farm_Buildings1905.pdf",
+      "locator": "D:\\pg\\documents\\Ebooks\\Farm_Buildings1905.pdf",
+      "bytes": 11455596,
+      "sha256": "cac3ee960f9f0164e6fe92595c54ccad589ee4225536833f6793363a87389a3e",
+      "authority": "primary",
+      "domains": [
+        "homestead"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "TB-67ef20df",
+      "title": "Garden Encyclopedia",
+      "file": "Garden Encyclopedia.pdf",
+      "locator": "D:\\pg\\documents\\Ebooks\\Garden Encyclopedia.pdf",
+      "bytes": 14186918,
+      "sha256": "00c9cc8bc98fa5e2b29e9fdd426982e7e6c48c79b9cd493693cf220bd844c4fd",
+      "authority": "primary",
+      "domains": [
+        "homestead"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "TB-9ccceaea",
+      "title": "getting_started_with_ubuntu_1204",
+      "file": "getting_started_with_ubuntu_1204.pdf",
+      "locator": "D:\\pg\\documents\\Ebooks\\getting_started_with_ubuntu_1204.pdf",
+      "bytes": 9904718,
+      "sha256": "c3eee78b1527080f6904fe3508e6e630c8b8d11e5fa456fdb64b35540e0d5146",
+      "authority": "primary",
+      "domains": [
+        "stem-cs"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "TB-08afa456",
+      "title": "GIS For Dummies (2009) - (Malestrom)",
+      "file": "GIS For Dummies (2009) - (Malestrom).pdf",
+      "locator": "D:\\pg\\documents\\Ebooks\\GIS For Dummies (2009) - (Malestrom).pdf",
+      "bytes": 9543651,
+      "sha256": "2b6bae7e0b1052e88e90788adc5faa13f4b3c3f1f74202b158337a310ea70b98",
+      "authority": "primary",
+      "domains": [
+        "earth-space"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "TB-3ff11ad7",
+      "title": "Glacial Geology - Ice Sheets and Landforms 2nd ed. - M. Bennett, N. Glasser (Wiley-Blackwell, 2009) BBS",
+      "file": "Glacial Geology - Ice Sheets and Landforms 2nd ed. - M. Bennett, N. Glasser (Wiley-Blackwell, 2009) BBS.pdf",
+      "locator": "D:\\pg\\documents\\Ebooks\\Glacial Geology - Ice Sheets and Landforms 2nd ed. - M. Bennett, N. Glasser (Wiley-Blackwell, 2009) BBS.pdf",
+      "bytes": 16170041,
+      "sha256": "db7e3b747ab1e0bbfbf57fc24d4f19e0e260c925e01dd03145c320054282adaf",
+      "authority": "primary",
+      "domains": [
+        "earth-space"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "TB-213d22f6",
+      "title": "Growing Wild Mushrooms",
+      "file": "Growing Wild Mushrooms.pdf",
+      "locator": "D:\\pg\\documents\\Ebooks\\Growing Wild Mushrooms.pdf",
+      "bytes": 5729217,
+      "sha256": "cfeb0438db929c4cb9a143f44f1bbb9de39801937c950331f61beee564e910ed",
+      "authority": "primary",
+      "domains": [
+        "homestead"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "TB-52c2c57c",
+      "title": "Handbook_of_Knots_&_Splices_-_Charles_Gibson",
+      "file": "Handbook_of_Knots_&_Splices_-_Charles_Gibson.pdf",
+      "locator": "D:\\pg\\documents\\Ebooks\\Handbook_of_Knots_&_Splices_-_Charles_Gibson.pdf",
+      "bytes": 1281594,
+      "sha256": "6e9e13b3f3a5be2e9ddfef81cf2cde41e7efc0767ec64524f43f10b7f4fb710c",
+      "authority": "primary",
+      "domains": [
+        "homestead"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "TB-3658ad89",
+      "title": "HowtoSpeakInternetxHTMLGuide",
+      "file": "HowtoSpeakInternetxHTMLGuide.epub",
+      "locator": "D:\\pg\\documents\\Ebooks\\HowtoSpeakInternetxHTMLGuide.epub",
+      "bytes": 4488333,
+      "sha256": "d00f0452fd1973d0f3736f2c95253a986a571bc4e6991d0d6cac2fe49a8b8072",
+      "authority": "primary",
+      "domains": [
+        "stem-cs"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "TB-6e304633",
+      "title": "Magic Mushrooms Around the World",
+      "file": "Magic Mushrooms Around the World.pdf",
+      "locator": "D:\\pg\\documents\\Ebooks\\Magic Mushrooms Around the World.pdf",
+      "bytes": 28276547,
+      "sha256": "c16cbafcf4fd9b8e03bfedaa24f415d09aef7d5766ac33e7977a6a781a4c8316",
+      "authority": "primary",
+      "domains": [
+        "homestead"
+      ],
+      "notes": "Ethnobotany/cultivation shelf \u2014 keep legal/safety framing; not a drug how-to course."
+    },
+    {
+      "id": "TB-d8995fa0",
+      "title": "Mushroom Cultivator",
+      "file": "Mushroom Cultivator.pdf",
+      "locator": "D:\\pg\\documents\\Ebooks\\Mushroom Cultivator.pdf",
+      "bytes": 35350501,
+      "sha256": "6bfdc4ae7d66060d6f5f8f9716bcb690d109d12eb5d08c35d4da8c42c3e14b7e",
+      "authority": "primary",
+      "domains": [
+        "homestead"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "TB-39cbc2e5",
+      "title": "Nuclear Defense Calculations - FM 3-3-1 Chptr 6",
+      "file": "Nuclear Defense Calculations - FM 3-3-1 Chptr 6.pdf",
+      "locator": "D:\\pg\\documents\\Ebooks\\Nuclear Defense Calculations - FM 3-3-1 Chptr 6.pdf",
+      "bytes": 2849524,
+      "sha256": "af29eae89b3f49d56721a262e000ba802e4ba95364844f98edb6b7a0d4102778",
+      "authority": "primary",
+      "domains": [
+        "field-manual"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "TB-1a70cdd1",
+      "title": "Plant Propagation",
+      "file": "Plant Propagation.pdf",
+      "locator": "D:\\pg\\documents\\Ebooks\\Plant Propagation.pdf",
+      "bytes": 14207268,
+      "sha256": "d354352c6c71b3ebca766fb83f9b1f1ae31f02b06ab55013ab122e4cc44dfd1c",
+      "authority": "primary",
+      "domains": [
+        "homestead"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "TB-c4bcb698",
+      "title": "Practical Electronics for Inventors (4th Ed)(gnv64)",
+      "file": "Practical Electronics for Inventors (4th Ed)(gnv64).epub",
+      "locator": "D:\\pg\\documents\\Ebooks\\Practical Electronics for Inventors (4th Ed)(gnv64).epub",
+      "bytes": 84907783,
+      "sha256": "66d5a5dba39d115c93676e563b8d6aea92ce31c6f07775a8d764aae1e8fbd2af",
+      "authority": "primary",
+      "domains": [
+        "stem-cs"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "TB-8e106d22",
+      "title": "practical-programming-third-edition_p1_0",
+      "file": "practical-programming-third-edition_p1_0.pdf",
+      "locator": "D:\\pg\\documents\\Ebooks\\practical-programming-third-edition_p1_0.pdf",
+      "bytes": 8814933,
+      "sha256": "b0b2166d541bf4ccea7da66fa35520f9bb0cb721585e3319cdece993b3b333e9",
+      "authority": "primary",
+      "domains": [
+        "stem-cs"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "TB-16efc022",
+      "title": "Propagating Peaches",
+      "file": "Propagating Peaches.pdf",
+      "locator": "D:\\pg\\documents\\Ebooks\\Propagating Peaches.pdf",
+      "bytes": 514770,
+      "sha256": "3247de7e38513628e61826b0f956e9c41a931d69859df7fd969a4880541a49a8",
+      "authority": "primary",
+      "domains": [
+        "homestead"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "TB-ddc08017",
+      "title": "Raising Goats",
+      "file": "Raising Goats.pdf",
+      "locator": "D:\\pg\\documents\\Ebooks\\Raising Goats.pdf",
+      "bytes": 1905138,
+      "sha256": "c35a7cef484dea74678d72b96ccc28902e760c9ebf5d5a90054881724188326a",
+      "authority": "primary",
+      "domains": [
+        "homestead"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "TB-2c92e8bb",
+      "title": "Ranger Handbook (2000) - sh_21-76",
+      "file": "Ranger Handbook (2000) - sh_21-76.pdf",
+      "locator": "D:\\pg\\documents\\Ebooks\\Ranger Handbook (2000) - sh_21-76.pdf",
+      "bytes": 2548252,
+      "sha256": "73ab2bf76793c2cb38bb5e7293bf8f32e9e1be796103a9547b5f0f4d4547698d",
+      "authority": "primary",
+      "domains": [
+        "field-manual"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "TB-925129b4",
+      "title": "Raspberry Pi Projects Book v.1",
+      "file": "Raspberry Pi Projects Book v.1.pdf",
+      "locator": "D:\\pg\\documents\\Ebooks\\Raspberry Pi Projects Book v.1.pdf",
+      "bytes": 37423602,
+      "sha256": "ca2bfd331083c97484ba0e393de7e53cccfa509e0738e543aec4b6913f42d580",
+      "authority": "primary",
+      "domains": [
+        "stem-cs"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "TB-504bf366",
+      "title": "Sausage Making",
+      "file": "Sausage Making.pdf",
+      "locator": "D:\\pg\\documents\\Ebooks\\Sausage Making.pdf",
+      "bytes": 2139609,
+      "sha256": "ce6eebf6e47b5574020f59351012d690b9ce223ae35bb6136b351a1bde40f44f",
+      "authority": "primary",
+      "domains": [
+        "homestead"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "TB-ea7ae206",
+      "title": "SF Caching Techniques",
+      "file": "SF Caching Techniques.pdf",
+      "locator": "D:\\pg\\documents\\Ebooks\\SF Caching Techniques.pdf",
+      "bytes": 2171130,
+      "sha256": "4f3b1c5cf8bd1b2313bf99c4cc6615121cf330a216b77602e48f0cf818e8229c",
+      "authority": "primary",
+      "domains": [
+        "stem-cs"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "TB-9925d5e8",
+      "title": "Standard Handbook of Petroleum and Natural Gas Engineering 2nd ed",
+      "file": "Standard Handbook of Petroleum and Natural Gas Engineering 2nd ed.pdf",
+      "locator": "D:\\pg\\documents\\Ebooks\\Standard Handbook of Petroleum and Natural Gas Engineering 2nd ed.pdf",
+      "bytes": 41686467,
+      "sha256": "84feb991f60084b7eb53d36b09ef59170329474a1c20147c1e40c2f3a02396f6",
+      "authority": "primary",
+      "domains": [
+        "earth-space"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "TB-1a7734e0",
+      "title": "Structural Geology - 1st Edition",
+      "file": "Structural Geology - 1st Edition.pdf",
+      "locator": "D:\\pg\\documents\\Ebooks\\Structural Geology - 1st Edition.pdf",
+      "bytes": 121957310,
+      "sha256": "88946a9b0826fd73e9624bcb9ea5653f789aa29e7e04f5453678513dc13ac548",
+      "authority": "primary",
+      "domains": [
+        "earth-space"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "TB-2677a99e",
+      "title": "TheCompleteIddiotsGuideToAstronomy",
+      "file": "TheCompleteIddiotsGuideToAstronomy.pdf",
+      "locator": "D:\\pg\\documents\\Ebooks\\TheCompleteIddiotsGuideToAstronomy.pdf",
+      "bytes": 4636771,
+      "sha256": "ab1d411ff22ffacc6e4199b65e41cddd2b6e5ae98f91efdbd7c9241f2ed62ee9",
+      "authority": "primary",
+      "domains": [
+        "earth-space"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "TB-14a7ea9a",
+      "title": "Topographic Operations (Digital Maps, GPS, and Topography) - fm_3-34.230",
+      "file": "Topographic Operations (Digital Maps, GPS, and Topography) - fm_3-34.230.pdf",
+      "locator": "D:\\pg\\documents\\Ebooks\\Topographic Operations (Digital Maps, GPS, and Topography) - fm_3-34.230.pdf",
+      "bytes": 2654065,
+      "sha256": "1a820590dcb306ac137739d893f73a207a84fee0efedc905e78f1aae9549bd51",
+      "authority": "primary",
+      "domains": [
+        "earth-space",
+        "field-manual"
+      ],
+      "notes": ""
+    }
+  ],
+  "suggested_gzu_tracks": [
+    {
+      "track_id": "gzu-python-self-sufficiency",
+      "title": "GZU: Practical Python for Self-Sufficiency",
+      "seed_books": [
+        "Automate the Boring Stuff with Python (2015).pdf",
+        "practical-programming-third-edition_p1_0.pdf"
+      ],
+      "audience": "adult",
+      "goal": "Automate chores and learn programming fundamentals on local metal."
+    },
+    {
+      "track_id": "gzu-geology-to-space",
+      "title": "GZU: Geology Foundations (Earth \u2192 Space)",
+      "seed_books": [
+        "Essentials Of Geology - 4th Edition.pdf",
+        "Structural Geology - 1st Edition.pdf",
+        "Glacial Geology - Ice Sheets and Landforms 2nd ed. - M. Bennett, N. Glasser (Wiley-Blackwell, 2009) BBS.pdf",
+        "GIS For Dummies (2009) - (Malestrom).pdf"
+      ],
+      "audience": "adult",
+      "goal": "Strengthen geology base that maps to aerospace / planetary work (pairs with geology-aerospace baked syllabus)."
+    },
+    {
+      "track_id": "gzu-homestead-food",
+      "title": "GZU: Homestead Food Preservation & Butchery",
+      "seed_books": [
+        "Complete Book of Home Preserving.pdf",
+        "Butchering.pdf",
+        "Sausage Making.pdf",
+        "Cheese Making.pdf"
+      ],
+      "audience": "adult",
+      "goal": "Food self-sufficiency skills from authoritative home texts."
+    },
+    {
+      "track_id": "gzu-homestead-garden",
+      "title": "GZU: Garden, Propagation, Small Livestock",
+      "seed_books": [
+        "Garden Encyclopedia.pdf",
+        "Plant Propagation.pdf",
+        "Propagating Peaches.pdf",
+        "Raising Goats.pdf",
+        "Growing Wild Mushrooms.pdf",
+        "Mushroom Cultivator.pdf"
+      ],
+      "audience": "adult",
+      "goal": "Grow and propagate food; livestock basics."
+    },
+    {
+      "track_id": "gzu-maker-electronics",
+      "title": "GZU: Maker Electronics & Single-Board Computers",
+      "seed_books": [
+        "Practical Electronics for Inventors (4th Ed)(gnv64).epub",
+        "Raspberry Pi Projects Book v.1.pdf",
+        "Arduino Robotics.pdf",
+        "Arduino Projects for Amateur Radio  2015.pdf"
+      ],
+      "audience": "adult",
+      "goal": "Hands-on electronics and SBC projects for homestead/NOVA metal."
+    },
+    {
+      "track_id": "gzu-fieldcraft",
+      "title": "GZU: Fieldcraft & Land Nav (manuals)",
+      "seed_books": [
+        "Ranger Handbook (2000) - sh_21-76.pdf",
+        "Topographic Operations (Digital Maps, GPS, and Topography) - fm_3-34.230.pdf",
+        "Handbook_of_Knots_&_Splices_-_Charles_Gibson.pdf"
+      ],
+      "audience": "adult",
+      "goal": "Land nav, knots, fieldcraft from public manuals \u2014 cite-only, no invented doctrine."
+    },
+    {
+      "track_id": "gzu-astronomy-lite",
+      "title": "GZU: Astronomy Orientation",
+      "seed_books": [
+        "TheCompleteIddiotsGuideToAstronomy.pdf"
+      ],
+      "audience": "mixed",
+      "goal": "Accessible sky literacy."
+    },
+    {
+      "track_id": "gzu-linux-onramp",
+      "title": "GZU: Linux On-Ramp",
+      "seed_books": [
+        "getting_started_with_ubuntu_1204.pdf"
+      ],
+      "audience": "adult",
+      "goal": "Comfortable Ubuntu/CLI host for DSCL and node work (note: older Ubuntu edition \u2014 verify against current)."
+    }
+  ]
+}
